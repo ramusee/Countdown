@@ -1,0 +1,49 @@
+body {
+  font-family: "Ubuntu"
+}
+.countdown {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 400px;
+  line-height: 3em;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  grid-gap: 6px;
+}
+.form__input-date {
+  font-size: 1.2em;
+  padding: 0.4em;
+  border-radius: 8px;
+  border: 2px solid black;
+}
+.button {
+  font-size: 1.2em;
+  padding: 0.5em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: tomato;
+  border: 2px solid tomato;
+  border-radius: 8px;
+  transition: .2s ease-out;
+}
+.button:hover {
+  background-color: #f74b34;
+}
+.button:active {
+  background-color: #f74b34;
+}
+.output {
+  text-align: center;
+  width: 9em;
+  min-height: 6em;
+  font-size: 1.5em;
+  font-weight: 400;
+  border: 3px solid tomato;
+  border-radius: 8px;
+  padding: .5em 1em;
+}
